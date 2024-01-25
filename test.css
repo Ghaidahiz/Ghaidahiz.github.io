@@ -1,0 +1,32 @@
+
+body{
+color:#f4f4f4;
+font-family:Tahoma,Helvetica; 
+font-size: large;
+font-weight: normal ;
+line-height: 2em;
+
+
+}
+.mainFrame{
+width: 70%;
+margin: auto;
+background-color:#171717;
+padding:20px;
+border-radius: 25px;
+
+
+
+}
+
+.paragraph{
+background-color: rgba(62, 62, 255, 0.382);
+color: #f4f4f4;
+
+}
+a {
+    color: #f8ff6c; 
+}
+a:hover {
+    color: #ff6c6c; 
+}

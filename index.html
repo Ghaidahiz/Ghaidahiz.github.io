@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head> 
-    <title> Ghaida 💫🤍  </title>
-    <link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>الطباخ الذكي 🧑🏻‍🍳</title>
+
 
 </head>
 
 <body>
-    <div class="mainFrame">
-<h1> HI THERE! </h1>
-<h2> niiiice</h2>
-<p> <span   class="paragraph">
-    Lorem ipsum dolor sit <strong>amet consectetur</strong>, adipisicing elit. Sunt assumenda libero facere reprehenderit <em> deleniti natus aliquid</em>, nisi modi ipsa odit enim consequuntur iste totam <a href=https://google.com target ="_blank"> umquam, alias omnis eos</a> excepturi.
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illo, exercitationem officiis laborum voluptates numquam voluptatibus? Cumque nesciunt libero, reiciendis, eligendi enim obcaecati distinctio architecto deserunt amet, inventore ducimus error?
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illo, exercitationem officiis laborum voluptates numquam voluptatibus? Cumque nesciunt libero, reiciendis, eligendi enim obcaecati distinctio architecto deserunt amet, inventore ducimus error?
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi illo, exercitationem officiis laborum voluptates numquam voluptatibus? Cumque nesciunt libero, reiciendis, eligendi enim obcaecati distinctio architecto deserunt amet, inventore ducimus error?
-</p>
-<ul>
-    <li> Hi </li>
-    <li> Hi </li>
+    <form class="form-container" action="/createrecipe" method="POST">
+        <div>
+            <h2>
+                تبحث عن وصفات لذيذة بمكونات في بيتك؟
+            </h2>
+            <p> </p>
+        
+            <label for="ingList"> ادخل المكونات مفصولة بمسافة: </label>
+            <input type="text" class="textArea" id="ingList" name="ingList" placeholder="دجاج بطاطس زبدة" required>
+        </div>
 
-</ul>
-</div>
-</span>
+        <br>
+
+        <div>
+            <input type="submit" class="submit" value="اصنع وصفة!">
+        </div>
+
+
+    </form>
+
 </body>
-
 
 
 </html>
